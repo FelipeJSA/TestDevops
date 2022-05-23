@@ -1,0 +1,9 @@
+# escape=`
+FROM eclipse-temurin:11.0.15_10-jdk-windowsservercore-1809
+
+ARG user=jenkins
+ARG http_port=8080
+ARG agent_port=50000
+ARG JENKINS_HOME=C:/ProgramData/Jenkins/JenkinsHome
+
+ARG COMMIT_SHA
